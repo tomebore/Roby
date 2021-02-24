@@ -1,0 +1,22 @@
+{
+  "name": "roby",
+  "version": "1.0.0",
+  "description": "online shop",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass core/static/main.scss  core/static/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomebore/Roby.git"
+  },
+  "author": "akylai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomebore/Roby/issues"
+  },
+  "homepage": "https://github.com/tomebore/Roby#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

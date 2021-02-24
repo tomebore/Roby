@@ -105,4 +105,5 @@ db.sqlite3
 media
 static/*
 settings.py
+node_modules
 

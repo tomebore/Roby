@@ -1,0 +1,10 @@
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100%, -2rem);
+    margin-left: $md-2 ;
+    margin-right: $md-2;
+    
+}
