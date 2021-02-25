@@ -1,0 +1,22 @@
+.offer{
+    &__container{
+        grid-template-columns: 55% 45%;
+        column-gap: 0;
+        background-color: $color-dark-lighter;
+        border-radius: .8rem;
+        justify-content: center;
+    }
+    &__data{
+        padding: 6.4rem 0 6.4rem 2.4rem;
+    }
+    &__title{
+        font-size: $biggest-font-size;
+        margin-bottom: .4rem;
+    }
+    &__description{
+        margin-bottom: $md-3;
+    }
+    &__img{
+        width: 15.3rem;
+    }
+} 

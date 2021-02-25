@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+    background-color: $color-dark;
+    color: $color-white;
+    padding:  2rem 3.2rem;
+    font-weight: $font-medium;
+    border-radius: .8rem;
+    transition: .3s;
+
+    &:hover{
+        transform: translateY(-.4rem);
+    }
+
+    &-light{
+        display:inline-flex ;
+        color: $color-dark;
+        font-weight: $font-bold;
+        align-items: center;
+
+        &:hover{
+            transform: translateX(.4rem);
+        }
+    }
+    &-icon{
+        font-size: 2rem;
+        margin-left: $md-1;
+        transition: .3s;
+
+    }
+}

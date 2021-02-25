@@ -1,0 +1,19 @@
+.active{
+    position: relative;
+}
+
+.active::before{
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 45%;
+    width: 4px;
+    height: 4px;
+    background-color: $color-dark;
+    border-radius: 50%;
+}
+
+.scroll-header{
+    background-color: $color-white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}

@@ -1,0 +1,42 @@
+.home{
+    background-color: $color-dark-lighter;
+    overflow: hidden;
+
+    &__container{
+        height: calc(100vh - 3rem);
+    }
+    &__sneaker{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    &__shape{
+        width: 220px;
+        height: 220px;
+        background-color: $color-dark;
+        border-radius: 50%;
+    }
+    &__img{
+        position: absolute;
+        top: 2.4rem;
+        max-width: initial;
+        width: 257px;
+        transform: $rotate-img;
+    }
+    &__new{
+        display: block;
+        font-size: $smaller-font-size;
+        font-weight: $font-semi-bold;
+        margin-bottom: $md-2;
+    }
+    &__title{
+        font-size: $biggger-font-size;
+        margin-bottom: $md-1;
+    }
+    &__description{
+        margin-bottom: $md-6;
+    }
+
+
+}

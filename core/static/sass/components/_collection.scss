@@ -1,0 +1,35 @@
+.collection{
+    &__container{
+        row-gap: 3.2rem;
+        justify-content: center;
+    }
+    &__card{
+        position: relative;
+        display: flex;
+        height: 328px;
+        background-color: $color-dark-lighter;
+        padding: 3.2rem;
+        border-radius: .8rem;
+        transition: .3s;
+        margin-bottom: 2rem ;
+        &:hover{
+            transform: translateY(-.8rem);
+        }
+    }
+    &__data{
+        align-self: flex-end;
+    }
+    &__img{
+        position: absolute;
+        top: 0;  
+        right: 0;
+        width: 230px;
+    }
+    &__name{
+        font-size: $biggger-font-size;
+        margin-bottom: .4rem;
+    }
+    &__description{
+        margin-bottom: $md-2;
+    }
+}

@@ -8,7 +8,7 @@
         &__menu{
             position: fixed;
             top: $header-height;
-            left: 0;
+            left: -100%;
             width: 70%;
             height: 100vh;
             padding: 3.2rem;
@@ -16,4 +16,21 @@
             transition: .5s;
         }
     }
+
+    &__item{
+        margin-bottom: $md-4;
+    }
+
+    &__logo{
+        font-weight: $font-semi-bold ;
+    }
+
+    &__toggle, &__shop{
+        font-size:2rem ;
+        cursor: pointer;
+    }
+}
+
+.show{
+    left: 0;
 }
