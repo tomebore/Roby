@@ -1,7 +1,7 @@
 .offer{
     &__container{
         grid-template-columns: 55% 45%;
-        column-gap: 0;
+        column-gap: 0 ;
         background-color: $color-dark-lighter;
         border-radius: .8rem;
         justify-content: center;

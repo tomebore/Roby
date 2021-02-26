@@ -1,0 +1,28 @@
+.footer{
+    &__container{
+        grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    }
+    &__box{
+        margin-bottom: $md-4;
+    }
+    &__title{
+        font-size: $big-font-size;
+    }
+    &__link{
+        display: block;
+        width: max-content;
+        margin-bottom: $md-1;
+    }
+    &__social{
+        font-size: 2.4rem;
+        margin-bottom: 2rem;
+        padding-right: 2rem;
+    }
+    &__copy{
+        padding-top: 4.6rem;
+        font-size: $smaller-font-size;
+        color: $color-dark-light;
+        text-align: center;
+    }
+
+}

@@ -1,4 +1,4 @@
-.sneaker{
+.sneaker{ 
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     border-radius: .8rem;
     transition: .3s;
     margin-bottom: $md-4;
+    // grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 
     &__sale{
         position: absolute;
@@ -40,5 +41,16 @@
     }
     &:hover{
         transform: translateY(-.8rem);
+    }
+    &__pages{
+        margin-top: $md-6;
+    }
+    &__pag{
+        padding: .8rem , 1.6rem;
+        border-radius: 1px solid $color-dark;
+        &:hover{
+            background-color: $color-dark;
+            color: $color-white;
+        }
     }
 }

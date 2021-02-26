@@ -1,0 +1,35 @@
+.newsletter{
+    &__container{
+        background-color: $color-dark;
+        color: $color-white;
+        padding: 3.2rem .8rem;
+        border-radius: .8rem;
+        text-align: center;
+    }
+    &__title{
+        font-size: $biggger-font-size;
+        margin-bottom: $md-2;
+    }
+    &__descrition{
+        margin-bottom: $md-5;
+    }
+    &__subscribe{
+        display:flex ;
+        column-gap: .8rem;
+        background-color: $color-white;
+        padding: .8rem;
+        border-radius: .8rem;
+    }
+    &__input{
+        outline: none;
+        border: none;
+        width: 90%;
+        font-size: $normal-font-size;
+        &::placeholder{
+            color: $color-dark;
+            font-family: $body-font;
+            font-size: $normal-font-size;
+            font-weight: $font-semi-bold;
+        }
+    }
+}

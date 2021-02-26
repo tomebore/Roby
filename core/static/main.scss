@@ -2,6 +2,7 @@
 @import "sass/base/animation";
 
 @import "sass/base/base";
+@import "sass/base/media";
 
 @import "sass/components/nav";
 @import "sass/components/btn";
@@ -10,10 +11,12 @@
 @import "sass/components/women";
 @import "sass/components/offer";
 @import "sass/components/new";
+@import "sass/components/newsletter";
 
 
 @import "sass/layout/grid";
 @import "sass/layout/header";
+@import "sass/layout/footer";
 
 @import "sass/pages/home";
 @import "sass/pages/featured";
