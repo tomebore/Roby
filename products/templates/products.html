@@ -1,0 +1,22 @@
+
+{% extends 'bases.html' %}
+
+{%  block content %}
+<section class="women section" id="women">
+    <h2 class="section-title">Latest collections</h2>
+    {% for product in products %}
+    <div class=" women__container bd-grid">
+        <article class="sneaker ">
+            {% if product.image %}
+            <a href="{% url 'product' product.id %}">
+                <img src="{{ product.image.url }}" class="snaker__img">
+            </a>
+            {% endif %}
+            <span class="sneaker__name">{{ product.name}}</span>
+            <span class="sneaker__price">{{ product.price}}</span>
+            <a href="{% url 'product' product.id %}" class="btn-light">Add to Cart<i class='bx bx-right-arrow-alt btn-icon'></i> </a>
+        </article>
+    </div>
+    {% endfor %}
+</section>
+{% endblock %}
