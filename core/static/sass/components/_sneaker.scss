@@ -39,6 +39,13 @@
     &__price{
         margin-bottom: $md-4;
     }
+    &__description{
+        font-size: $normal-font-size;
+        letter-spacing: .1rem;
+        font-weight: $font-medium;
+        margin-bottom: $md-4;
+        text-transform: uppercase;
+    }
     &:hover{
         transform: translateY(-.8rem);
     }

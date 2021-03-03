@@ -85,11 +85,11 @@ img {
   body {
     margin: 0; }
   .section {
-    padding: 5rem 20rem; }
+    padding: 10rem 20rem; }
   .section-title::after {
     width: 7.6rem; }
   .nav {
-    height: 5rem; }
+    height: 7rem !important; }
     .nav__menu {
       margin-left: auto; }
     .nav__list {
@@ -200,6 +200,11 @@ img {
     font-size: 2rem;
     margin-left: 0.8rem;
     transition: .3s; }
+  .btn__feedback {
+    display: inline-flex;
+    color: #8A8A8A;
+    font-weight: 700;
+    align-items: center; }
 
 .sneaker {
   position: relative;
@@ -235,6 +240,12 @@ img {
     margin-bottom: 0.8rem; }
   .sneaker__price {
     margin-bottom: 3.2rem; }
+  .sneaker__description {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+    text-transform: uppercase; }
   .sneaker:hover {
     transform: translateY(-0.8rem); }
   .sneaker__pages {

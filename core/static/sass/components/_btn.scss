@@ -27,4 +27,10 @@
         transition: .3s;
 
     }
+    &__feedback{
+        display:inline-flex ;
+        color: $color-dark-light;
+        font-weight: $font-bold;
+        align-items: center;
+    }
 }

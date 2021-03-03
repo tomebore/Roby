@@ -1,0 +1,15 @@
+{% extends 'bases.html' %}
+{% load bootstrap4 %}
+
+
+{% block content %}
+<div class="section">
+<form method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button name="add_feedback_btn" class="btn bd-grid">
+        добавить фиидбэк
+    </button>
+</form>
+</div>
+{% endblock %} 

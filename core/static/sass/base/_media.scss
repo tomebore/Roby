@@ -37,13 +37,13 @@
         margin: 0;
     }
     .section{
-        padding: 5rem 20rem;
+        padding: 10rem 20rem;
     }
     .section-title::after{
         width: 7.6rem;
     }
     .nav{
-        height: 5rem;
+        height: 7rem !important;
         &__menu{
             margin-left: auto;
         }

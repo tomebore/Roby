@@ -37,6 +37,16 @@
     &__description{
         margin-bottom: $md-6;
     }
-
+    // @media screen and (min-width:768px){
+    //     &__shape{
+    //         width: 22rem;
+    //         height: 22rem;
+    //         background-color: $color-dark;
+    //         border-radius: 50%;
+    //     }
+    //     &__container{
+    //         height: calc(150vh);
+    //     }
+    // }
 
 }
