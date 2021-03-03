@@ -82,6 +82,11 @@
             // right: 0;
             // left: 40rem;
         }
+        article .sneaker{
+            display: grid;
+            gap: 2.4rem;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        }
     }
     .newsletter{
         &__container{

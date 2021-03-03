@@ -116,6 +116,10 @@ img {
   .home__img {
     width: 470px !important;
     top: 5rem !important; }
+  .home article .sneaker {
+    display: grid;
+    gap: 2.4rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
   .newsletter__container {
     grid-template-columns: max-content max-content;
     justify-content: center;

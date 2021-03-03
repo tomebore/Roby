@@ -14,6 +14,9 @@
             </a>
             {% endif %}
             <span class="sneaker__name">{{ product.name}}</span>
+            <a href="{% url 'product' product.id %}" class="btn-light">
+                <span class="sneaker__name">{{ product.category }}</span>
+            </a>
             <span class="sneaker__price">${{ product.price}}</span>
             <a href="{% url 'product' product.id %}" class="btn-light">Add to Cart<i class='bx bx-right-arrow-alt btn-icon'></i> </a>
         </article>

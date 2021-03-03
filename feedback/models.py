@@ -5,12 +5,12 @@ from django.contrib.auth.models import User
 class Feedback(models.Model):
     name = models.CharField(
         max_length=255,
-        null=True, blank=True,
-        verbose_name="Ваше имя"
+        null=True, blank=False,
+        verbose_name="Ваше имя",
     )
 
     text = models.TextField(
-        null=True, blank=True,
+        null=True, blank=False,
         verbose_name="Текст обращения"
     )
 
@@ -37,7 +37,7 @@ class Feedback(models.Model):
 
     email = models.EmailField(
         max_length=255,
-        null=True, blank=True,
+        null=True, blank=False,
         verbose_name="Электронная почта"
     )
 

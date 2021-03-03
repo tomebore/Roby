@@ -14,3 +14,13 @@ def product(request,id):
     context["product"] = Product.objects.filter(id=id)
     return render(request ,"product.html" ,context)
 
+
+def category(request, pk):
+    context = {}
+    category = Category.objects.get(id=pk)
+    context["object_list"] = Product.objects.filter(
+        category==category,
+        deleted=False
+    )
+    context["category_pk"] = pk
+    return render(request, "product/products.html", context)
